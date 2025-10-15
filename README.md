@@ -236,45 +236,7 @@ Our solution implements a complete middleware layer between security analysts an
 
 ***
 
-## Development Roadmap
 
-### Phase 1: MVP (Current Status - Complete)
-
-- Streamlit-based conversational interface
-- Gemini AI integration for NLP
-- Query generation with educational explanations
-- Proactive triage simulation
-- Space security module demonstration
-- Mock data for realistic scenarios
-
-
-### Phase 2: SIEM Integration (Next 4 Weeks)
-
-- Elasticsearch API connector with authentication
-- Wazuh API integration for rule management
-- Live query execution against production SIEM
-- Real-time alert streaming via websockets
-- Index mapping discovery and validation
-
-
-### Phase 3: Production Features (8 Weeks)
-
-- Closed-loop active response (USP 3 implementation)
-- Advanced context management with investigation workspaces
-- Automated report generation with scheduling
-- Role-based access control and audit logging
-- Performance optimization for enterprise scale
-
-
-### Phase 4: Enterprise Deployment (12 Weeks)
-
-- Multi-tenant architecture
-- Custom domain knowledge integration
-- SOC workflow automation
-- Compliance reporting templates
-- High-availability deployment configuration
-
-***
 
 ## Performance Metrics
 
@@ -338,28 +300,6 @@ streamlit run app.py
 - Input sanitization to prevent injection attacks
 
 ***
-
-## Project Structure
-
-```
-siem-assistant-mvp/
-├── app.py                        # Main application entry point
-├── pages/
-│   └── Space_Security.py         # ISRO space security module UI
-├── components/
-│   ├── chat_interface.py         # Conversational query interface
-│   ├── proactive_alerts.py       # Auto-triage system (USP 1)
-│   └── query_explainer.py        # Educational query breakdown (USP 2)
-├── space_security/
-│   ├── satellite_comm_analyzer.py    # CCSDS protocol parser
-│   ├── ground_station_monitor.py     # RF interference detection
-│   ├── mission_timeline_correlator.py # Orbital context correlation
-│   └── supply_chain_monitor.py       # Component verification
-├── utils/
-│   ├── gemini_client.py          # AI client with error handling
-│   └── mock_data.py              # Realistic security data simulation
-└── requirements.txt              # Python dependencies
-```
 
 
 ***
