@@ -1,0 +1,21 @@
+{
+  "isro_config": {
+    "authorized_spacecraft": [101, 102, 103, 201, 202, 301],
+    "ground_stations": [
+      {
+        "station_id": "ISRO-SHAR",
+        "frequencies": [[2025.0, 2120.0], [2200.0, 2300.0]],
+        "ip_ranges": ["10.1.0.0/16"]
+      }
+    ],
+    "security_associations": [
+      {
+        "spi": 1,
+        "algorithm": "AES-256-GCM",
+        "key_length": 256
+      }
+    ]
+  },
+  "ccsds_protocols": ["TM", "TC", "AOS", "USLP"],
+  "compliance_standards": ["CCSDS-355.0-B-2", "NIST-800-161r1"]
+}
