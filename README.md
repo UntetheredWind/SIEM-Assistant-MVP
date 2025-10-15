@@ -2,7 +2,7 @@
 
 # SIEM Assistant MVP - Intelligent Security Analysis Platform
 
-**Live Demo:** https://untetheredwind-seim-mvp.streamlit.app/
+**Live Demo:** https://untetheredwind-siem-mvp.streamlit.app/
 
 **Smart India Hackathon 2025 | Problem Statement PS-25173**
 
